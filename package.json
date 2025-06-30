@@ -1,0 +1,42 @@
+{
+  "name": "aidigestignore",
+  "version": "1.0.1",
+  "description": "Generate .aidigestignore files for different programming languages to exclude unnecessary files from aidigest codebase.md",
+  "main": "index.js",
+  "bin": {
+    "aidigestignore": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "aidigest",
+    "ignore",
+    "flutter",
+    "python",
+    "javascript",
+    "react",
+    "java",
+    "codebase",
+    "ai",
+    "npx",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/aidigestignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/aidigestignore/issues"
+  },
+  "homepage": "https://github.com/yourusername/aidigestignore#readme"
+}
